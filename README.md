@@ -5,24 +5,24 @@ API позволит распарсить сайт с гороскопами
 
 Что нужно сделать что бы сайт заработал
 
-# -Создать виртуальную среду
+ -Создать виртуальную среду
 
-  $ python -m venv env
+      $ python -m venv env
 
-# -Чтобы активировать виртуальную среду с именем env, используйте следующие команды:
+ -Чтобы активировать виртуальную среду с именем env, используйте следующие команды:
 
- в Windows — env\Scripts\activate.bat
- в Linux и MacOS — source env/bin/activate
- Чтобы деактивировать введите deactivate
+     в Windows — env\Scripts\activate.bat
+     в Linux и MacOS — source env/bin/activate
+     Чтобы деактивировать введите deactivate
 
-# -Установите следующие библиотеки
+ -Установите следующие библиотеки
 
- $ pip install requests Библиотека requests позволяет очень легко отправлять запросы.
- $ pip install bs4 Beautiful Soup (bs4) – это библиотека Python для извлечения данных из файлов HTML и XML.
- $ pip install flask Это простой и легкий в использовании микрофреймворк Python. Он помогает создавать масштабируемые и безопасные веб-приложения.
- $ pip install flask-restx Позволяет создавать API с помощью документации Swagger.
- $ pip install python-decouple Мы также будем использовать переменные среды в этом проекте.
+     $ pip install requests Библиотека requests позволяет очень легко отправлять запросы.
+     $ pip install bs4 Beautiful Soup (bs4) – это библиотека Python для извлечения данных из файлов HTML и XML.
+     $ pip install flask Это простой и легкий в использовании микрофреймворк Python. Он помогает создавать масштабируемые и безопасные веб-приложения.
+     $ pip install flask-restx Позволяет создавать API с помощью документации Swagger.
+     $ pip install python-decouple Мы также будем использовать переменные среды в этом проекте.
 
-# -Запустить файл который поможет нам запустить сервер Flask
+ -Запустить файл который поможет нам запустить сервер Flask
 
- $ python main.py   
+     $ python main.py   
